@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yog and Asan</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .bg {
+            background-image: url('home.jpg');
+            /* Replace with your image URL */
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content {
+            text-align: center;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .content h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 24px;
+        }
+        /* Navigation bar styles */
+        .nav-bar {
+            background-color: rgb(192, 101, 67);
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav-bar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav-bar li {
+            margin-right: 20px;
+        }
+        .nav-bar a {
+            color:white;
+            text-decoration: none;
+        }
+        .nav-bar a:hover {
+            color: #ccc;
+            text-decoration: none;
+        }
+        /* Button styles */
+        .nav-bar button {
+            background-color:orange;
+            border: none;
+            padding: 10px 20px;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .nav-bar button:hover {
+            background-color: wheat;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a   href="course.html">Course</a></li>
+            <li><a    href="about us .html">About us</a></li>
+            <li><a  href="contact us.html">Contact</a></li>
+            
+        </ul>
+        <div>
+            <button><a href="register.html">Register</a></button>
+            <button><a href="login.html">Login</a></button>
+        </div>
+    </nav>
+    <div class="bg">
+        <div class="content">
+            <h1>Welcome to Our Yog and Asan</h1>
+            <p>Find Balance, Harmony, and Energy.</p>
+        </div>
+    </div>
+</body>
+</html>
